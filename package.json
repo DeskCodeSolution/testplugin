@@ -1,5 +1,5 @@
 {
-  "name": "testplugin",
+  "name": "@deskcode/testplugin",
   "version": "0.0.1",
   "description": "testing",
   "main": "dist/plugin.cjs.js",

@@ -5,7 +5,7 @@ testing
 ## Install
 
 ```bash
-npm install testplugin
+npm install @deskcode/testplugin
 npx cap sync
 ```
 
@@ -14,7 +14,7 @@ npx cap sync
 <docgen-index>
 
 * [`echo(...)`](#echo)
-* [`askPermission(...)`](#askpermission)
+* [`askPermission()`](#askpermission)
 
 </docgen-index>
 
@@ -36,15 +36,11 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 --------------------
 
 
-### askPermission(...)
+### askPermission()
 
 ```typescript
-askPermission(filter: string) => Promise<{ results: any; }>
+askPermission() => Promise<{ results: any; }>
 ```
-
-| Param        | Type                |
-| ------------ | ------------------- |
-| **`filter`** | <code>string</code> |
 
 **Returns:** <code>Promise&lt;{ results: any; }&gt;</code>
 
